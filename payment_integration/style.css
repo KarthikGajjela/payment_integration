@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+
+.banner-area{
+animation: slide 10s infinite;
+background-position: center center;
+-webkit-background-size:cover;
+background-size: cover;
+height: 100vh;
+}
+
+.banner-text{
+    position: absolute;
+    top:8%;
+    justify-content:center;
+    text-align: center;
+    margin-left: 8rem;
+}   
+h2{
+    color:#08c9f5;
+    font-size:xx-large;
+    letter-spacing: 0.3rem;
+}
+span{
+    font-size: 50px;
+    color: #08c9f5;
+    font-style: italic;
+    
+}
+.banner-text p{
+    margin-bottom: 2rem;
+    font-size: 20px;
+    text-align: center;
+    color:#010e11;
+    font-style: italic;
+    animation: 1.5s linear infinite;
+}
+a{
+    text-decoration: none;
+    font-size: x-large;
+    border: none;
+    animation-name: links;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    font-weight: 700;
+    background: #dfe4ea;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-right:6rem ;
+    padding: 2px;
+    
+}
+
+@keyframes links{
+    from{color:#a4b0be;}
+    to{color:#ff0303;}
+}
